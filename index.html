@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./styles/styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="backdrop" id="modalBackdrop"></div>
+
+    <div class="modal" id="modal">
+      <div class="modal__header">
+        <span class="modal__title">Shopping Cart</span>
+        <button class="close-modal" id="closeModal" aria-label="Close modal">&times;</button>
+      </div>
+      <div class="modal__body">
+        <div class="selected__products">
+          <div class="product__img-container">
+            <img class="product-image" src="/assets/img/camera.jpg" alt="" />
+          </div>
+          <div class="selected__products-body">
+            <p class="selected__products-title">Mirrorless Camera</p>
+            <p class="product-price">$1,200</p>
+            <div class="count">
+              <button class="decrease">-</button>
+              <span class="count">2</span>
+              <button class="increase">+</button>
+            </div>
+            <button class="delete">Remove</button>
+          </div>
+        </div>
+        <div class="selected__products">
+          <div class="product__img-container">
+            <img class="product-image" src="/assets/img/camera.jpg" alt="" />
+          </div>
+          <div class="selected__products-body">
+            <p class="selected__products-title">Mirrorless Camera</p>
+            <p class="product-price">$1,200</p>
+            <div class="count">
+              <button class="decrease">-</button>
+              <span class="count">2</span>
+              <button class="increase">+</button>
+            </div>
+            <button class="delete">Remove</button>
+          </div>
+        </div>
+      </div>
+      <div class="modal__footer">
+        <div class="cart-total">$4,650</div>
+        <button class="btn__modal-action" id="confirmAction">Proceed to Checkout</button>
+      </div>
+    </div>
+
+    <div class="container">
+      <header>
+        <div class="header__items">
+          <span class="header__bar-icon"><i class="fa-solid fa-bars"></i></span>
+          <p class="header__title">Matilda EveryShop</p>
+          <span class="header__cart-icon"><i class="fa-solid fa-cart-shopping"></i></span>
+        </div>
+      </header>
+
+      <section class="product__section">
+        <!-- <div class="product">
+          <div class="product__img-container">
+            <img class="product-image" src="./assets/img/camera.jpg" alt="camera" />
+          </div>
+          <div class="product__body">
+            <p class="product__title">Professional Camera</p>
+            <p class="product__description">
+              High-quality DSLR camera with advanced features for professional photography
+            </p>
+            <p class="product__price">$ 1,800</p>
+          </div>
+          <div class="product__footer">
+            <button class="btn__add" onclick="showModal()">Add To Cart</button>
+          </div>
+        </div>
+
+        <div class="product">
+          <div class="product__img-container">
+            <img class="product-image" src="./assets/img/camera.jpg" alt="camera" />
+          </div>
+          <div class="product__body">
+            <p class="product__title">Professional Camera</p>
+            <p class="product__description">
+              High-quality DSLR camera with advanced features for professional photography
+            </p>
+            <p class="product__price">$ 1,800</p>
+          </div>
+          <div class="product__footer">
+            <button class="btn__add" onclick="showModal()">Add To Cart</button>
+          </div>
+        </div>
+
+        <div class="product">
+          <div class="product__img-container">
+            <img class="product-image" src="./assets/img/camera.jpg" alt="camera" />
+          </div>
+          <div class="product__body">
+            <p class="product__title">Professional Camera</p>
+            <p class="product__description">
+              High-quality DSLR camera with advanced features for professional photography
+            </p>
+            <p class="product__price">$ 1,800</p>
+          </div>
+          <div class="product__footer">
+            <button class="btn__add" onclick="showModal()">Add To Cart</button>
+          </div>
+        </div>
+
+        <div class="product">
+          <div class="product__img-container">
+            <img class="product-image" src="./assets/img/camera.jpg" alt="camera" />
+          </div>
+          <div class="product__body">
+            <p class="product__title">Professional Camera</p>
+            <p class="product__description">
+              High-quality DSLR camera with advanced features for professional photography
+            </p>
+            <p class="product__price">$ 1,800</p>
+          </div>
+          <div class="product__footer">
+            <button class="btn__add">Add To Cart</button>
+          </div>
+        </div> -->
+      </section>
+    </div>
+    <script type="module" src="./js/script.js"></script>
+  </body>
+</html>

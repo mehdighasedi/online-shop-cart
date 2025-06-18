@@ -1,0 +1,51 @@
+export const productsData = [
+  {
+    id: 1,
+    title: "Camera",
+    price: 180,
+    image: "../assets/img/camera.jpg",
+    description: "High-quality DSLR camera with advanced features for professional photography",
+  },
+  {
+    id: 2,
+    title: "herb",
+    price: 200,
+    image: "../assets/img/herbs.jpg",
+    description: "High-quality Herbal with advanced features for professional sickness",
+  },
+  {
+    id: 3,
+    title: "Blender",
+    price: 250,
+    image: "../assets/img/blender.jpg",
+    description: "High-quality Blender with advanced features for professional Blender",
+  },
+  {
+    id: 4,
+    title: "Cream",
+    price: 150,
+    image: "../assets/img/cream.jpg",
+    description: "High-quality Cream with advanced features for professional Cream",
+  },
+  {
+    id: 5,
+    title: "Lighter New ",
+    price: 350,
+    image: "../assets/img/lighter.jpg",
+    description: "High-quality Lighter with advanced features for professional Lighter",
+  },
+  {
+    id: 6,
+    title: "Argan Oil ",
+    price: 50,
+    image: "../assets/img/oil.jpg",
+    description: "High-quality Oil with advanced features for professional Oil",
+  },
+  {
+    id: 7,
+    title: "Accessories ",
+    price: 350,
+    image: "../assets/img/women-accessories.jpg",
+    description: "High-quality Accessories with advanced features for professional Accessories",
+  },
+];
