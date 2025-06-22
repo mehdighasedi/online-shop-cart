@@ -26,7 +26,22 @@
         <button class="close-modal" id="closeModal" aria-label="Close modal">&times;</button>
       </div>
       <div class="modal__body">
-        <div class="selected__products">
+        <!-- <div class="selected__products">
+          <div class="product__img-container">
+            <img class="product-image" src="/assets/img/camera.jpg" alt="" />
+          </div>
+          <div class="selected__products-body">
+            <p class="selected__products-title">Mirrorless Camera</p>
+            <p class="product-price">$1,200</p>
+            <div class="counter">
+              <button class="decrease">-</button>
+              <span class="count">2</span>
+              <button class="increase">+</button>
+            </div>
+            <button class="delete">Remove</button>
+          </div>
+        </div> -->
+        <!-- <div class="selected__products">
           <div class="product__img-container">
             <img class="product-image" src="/assets/img/camera.jpg" alt="" />
           </div>
@@ -40,25 +55,11 @@
             </div>
             <button class="delete">Remove</button>
           </div>
-        </div>
-        <div class="selected__products">
-          <div class="product__img-container">
-            <img class="product-image" src="/assets/img/camera.jpg" alt="" />
-          </div>
-          <div class="selected__products-body">
-            <p class="selected__products-title">Mirrorless Camera</p>
-            <p class="product-price">$1,200</p>
-            <div class="count">
-              <button class="decrease">-</button>
-              <span class="count">2</span>
-              <button class="increase">+</button>
-            </div>
-            <button class="delete">Remove</button>
-          </div>
-        </div>
+        </div> -->
       </div>
       <div class="modal__footer">
-        <div class="cart-total">$4,650</div>
+        <div class="cart-total">$0</div>
+        <button class="btn__modal-delete" id="delAction">Clear All Cart</button>
         <button class="btn__modal-action" id="confirmAction">Proceed to Checkout</button>
       </div>
     </div>
@@ -68,7 +69,10 @@
         <div class="header__items">
           <span class="header__bar-icon"><i class="fa-solid fa-bars"></i></span>
           <p class="header__title">Matilda EveryShop</p>
-          <span class="header__cart-icon"><i class="fa-solid fa-cart-shopping"></i></span>
+          <div>
+            <span class="header__cart-icon"><i class="fa-solid fa-cart-shopping"></i></span>
+            <span class="header__cart-badge">0</span>
+          </div>
         </div>
       </header>
 
